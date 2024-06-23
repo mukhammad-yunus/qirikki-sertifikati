@@ -43,6 +43,11 @@ header.header {
   justify-content: space-between;
   padding-bottom: 36px;
 }
+div.data{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 /* IMAGES */
 header.header img {
   display: block;
