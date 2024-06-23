@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sertifikat</title>
-</head>
-<body>
-  <main class="container">
-    <section>
-      <p>“Algoritmlar” kursini tamomlagani haqida</p>
-      <img src="./source/logo.svg" alt="logo of 42"/>
-    </section>
-    <section>
-      <h1>SERTIFIKAT</h1>
-      <h3>Jasur Hakimov</h3>
-      <p>Ushbu sertifikat Jasur Hakimovga 2024-yil, 25-iyun kuni 42.uz platformasida “Algoritmlar” kursini muvaffaqiyatli tamomlagani uchun berildi.</p>
-    </section>
-    <section>
-      <img src="./source/qr.png" alt="qr code">
-    </section>
-    <section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>42Sertifikat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="small-device">
+      Sertifikatni to'liq ko'rish uchun, iltimos, bu sahifani kattaroq qurilmada oching.
+    </p>
+    <main class="container top">
+      <header class="header">
+        <p><span>“Algoritmlar”</span> kursini tamomlagani haqida</p>
+        <img src="./source/logo.svg" alt="logo of 42" />
+      </header>
+      <section class="content">
+        <h1>SERTIFIKAT</h1>
+        <h3>Jasur Hakimov</h3>
+        <p>
+          Ushbu sertifikat Jasur Hakimovga <span>2024-yil, 25-iyun</span> kuni
+          42.uz platformasida <span>“Algoritmlar”</span> kursini muvaffaqiyatli
+          tamomlagani uchun berildi.
+        </p>
+      </section>
+      <img class="qr" src="./source/qr.png" alt="qr code" />
+    </main>
+    <main class="container bottom">
       <div>
-        <img src="./source/signature.svg" alt="signature of the tutor">
-        <p>Yusuf Abdullaev,</p>
+        <img class="signature" src="./source/signature.svg" alt="signature of the tutor" />
+        <p class="author">Yusuf Abdullaev,</p>
         <p>Co-founder, CEO</p>
       </div>
-      <div>
-        <img src="./source/illustration.svg" alt="illustration of three kids holding papers">
+      <div class="data">
+        <img
+          src="./source/illustration.svg"
+          alt="illustration of three kids holding papers"
+        />
         <p>2024-yil, 25-iyun</p>
       </div>
-    </section>
-  </main>
-</body>
+    </main>
+  </body>
 </html>
